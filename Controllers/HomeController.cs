@@ -1,37 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Movies_webApp_MVC.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Text.Encodings.Web;
 
-namespace Movies_webApp_MVC.Controllers
+namespace MvcMovie.Controllers
 {
-    public class HomeController : Controller
+    public class HelloWorldController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        // 
+        // GET: /HelloWorld/
 
-        public HomeController(ILogger<HomeController> logger)
+        public string Index()
         {
-            _logger = logger;
+            return "This is my default action...";
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        // 
+        // GET: /HelloWorld/Welcome/ 
 
-        public IActionResult Privacy()
+        public string Welcome()
         {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return "This is the Welcome action method...";
         }
     }
 }
