@@ -15613,6 +15613,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Code lines of blackcat\\.NET\\ASP.NET Tutorial\\Movies-webApp-MVC\\Views\\index.cshtml",
+      "TargetPath": "Views\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Code lines of blackcat\\.NET\\ASP.NET Tutorial\\Movies-webApp-MVC\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -15635,6 +15640,11 @@
     {
       "FilePath": "d:\\Code lines of blackcat\\.NET\\ASP.NET Tutorial\\Movies-webApp-MVC\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Code lines of blackcat\\.NET\\ASP.NET Tutorial\\Movies-webApp-MVC\\Views\\HelloWorld\\index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\index.cshtml",
       "FileKind": "mvc"
     }
   ],
